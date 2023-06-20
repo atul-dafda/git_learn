@@ -56,7 +56,7 @@ const readline = require("readline").createInterface({
 readline.question(`What's your name?`, (name) => {
 	console.log(`Hi ${name}!`);
 	app.listen(port, () => {
-		console.log(`Server is running on ${port}`);
+		console.log(`Server is runnings on ${port}`);
 	});
 	readline.close();
 });
